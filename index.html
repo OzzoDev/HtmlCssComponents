@@ -3,24 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Animated input</title>
+    <title>Tilt Card</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="input-container">
-        <img src="search.png" alt="" />
-        <input type="text" name="" id="input" placeholder="Type to search" />
-      </div>
-      <div class="circle">
-        <span>Label 1</span>
-        <span>Label 2</span>
-        <span>Label 3</span>
-        <span>Label 4</span>
-        <span>Label 5</span>
-        <span>Label 6</span>
-        <div class="dot"></div>
-      </div>
+    <div data-tilt data-tilt="1.1" data-tilt-glare data-tilt-max-glare="0.5">
+      <section>
+        <figure>
+          <img src="road.jpg" alt="road into the mountains" />
+          <figcaption>Bern, Switzerland</figcaption>
+        </figure>
+        <article>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis provident voluptatum fugiat quaerat dolor eligendi a quod aut veritatis tenetur? Placeat delectus tempore, non incidunt laboriosam temporibus eum deleniti facere nisi. Velit at autem itaque ducimus quidem. Cumque deserunt impedit, adipisci, expedita inventore voluptatum odio nesciunt, ipsa neque ratione facilis?</p>
+        </article>
+        <button>Read more!</button>
+      </section>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
